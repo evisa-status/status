@@ -61,6 +61,7 @@ body {
   width: 90%;
   max-width: 1170px;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 600px) {
