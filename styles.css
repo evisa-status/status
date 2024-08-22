@@ -6,13 +6,64 @@ body {
 }
 
 .header {
-  padding: 10px 1px;
-  background-color: #0066cc;
+  height: 50px;
+  background-color: #5064cc;
   color: #ffffff;
-  text-align: center;
   width: 90%;
   max-width: 1170px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  position: relative; /* Make the header a positioning context */
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start; /* Align navbar links to the left */
+  align-items: center;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.arabic-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #e4e4e4; /* Grey background for Arabic container */
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  width: 60px;
+}
+
+.arabic {
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #4b67c8;
+  display: block;
+  font-size: 16px;
+  line-height: 41px;
+  background-color: #e4e4e4;
 }
 
 .container {
@@ -53,21 +104,36 @@ body {
 
 .footer {
   padding: 10px 1px;
-  background-color: #0066cc;
+  background-color: #5064cc;
   color: #ffffff;
-  /* position: fixed; */
-  /* bottom: 0; */
   text-align: center;
   width: 90%;
   max-width: 1170px;
   margin: 0 auto;
   margin-bottom: 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
 }
 
 @media (max-width: 600px) {
   .header,
-  footer {
+  .footer {
     text-align: center;
+  }
+
+  .navbar-links,
+  .footer a,
+  .footer p,
+  .arabic,
+  .arabic-container {
+    display: none;
   }
 
   .container,
@@ -109,3 +175,4 @@ body {
   height: auto;
   display: block;
 }
+
