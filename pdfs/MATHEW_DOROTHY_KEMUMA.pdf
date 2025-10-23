@@ -4,7 +4,7 @@
 <<
 /CreationDate (D:20240804145032+04'00')
 /Keywords (eVisa, vcr, receipt)
-/ModDate (D:20251023234019+03'00')
+/ModDate (D:20251023234146+03'00')
 /Producer (iText 5.0.6 \(c\) 1T3XT BVBA)
 /Subject (VCR)
 /Title (VCR)
@@ -45,7 +45,7 @@ stream
 				xmlns:dc="http://purl.org/dc/elements/1.1/"
 				xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/">
 			<xmp:CreateDate>2024-08-04T13:50:32+03:00</xmp:CreateDate>
-			<xmp:ModifyDate>2025-10-23T23:40:19+03:00</xmp:ModifyDate>
+			<xmp:ModifyDate>2025-10-23T23:41:46+03:00</xmp:ModifyDate>
 			<pdf:Keywords>eVisa, vcr, receipt</pdf:Keywords>
 			<pdf:Producer>iText 5.0.6 (c) 1T3XT BVBA</pdf:Producer>
 			<dc:format>application/pdf</dc:format>
